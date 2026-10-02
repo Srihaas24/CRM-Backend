@@ -1,0 +1,14 @@
+!.mvn/wrapper/maven-wrapper.jar
+.git
+.gitignore
+.vscode/
+.idea/
+.settings/
+.project
+.classpath
+.factorypath
+*.cmd
+HELP.md
+docker-compose*.yml
+Dockerfile*
+.env
