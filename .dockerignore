@@ -12,3 +12,4 @@ HELP.md
 docker-compose*.yml
 Dockerfile*
 .env
+target/
