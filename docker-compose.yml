@@ -46,6 +46,8 @@ services:
       SPRING_DATA_REDIS_SSL: ${SPRING_DATA_REDIS_SSL:-false}
       VERIFICATION_URL: ${VERIFICATION_URL:-http://localhost:8080/verify}
       PASSWORD_RESET_URL: ${PASSWORD_RESET_URL:-http://localhost:8080/reset-password}
+      SPRING_MAIL_HOST: ${SPRING_MAIL_HOST:-smtp.gmail.com}
+      SPRING_MAIL_PORT: ${SPRING_MAIL_PORT:-587}
       MAIL_USERNAME: ${MAIL_USERNAME:-}
       MAIL_PASSWORD: ${MAIL_PASSWORD:-}
       PORT: ${PORT:-8080}
